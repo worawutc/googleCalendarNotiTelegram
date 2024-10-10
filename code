@@ -2,6 +2,7 @@ function sendCalendarToTelegram() {
   var calenda = CalendarApp.getCalendarById("xxx"); // ใส่ Calendar ID ที่ต้องการ
   var token = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'; // ใส่ Telegram bot token
   var chatId = 'xxxxxxxxxx'; // ใส่ chat ID
+  //https://api.telegram.org/bot/getUpdates
   var telegramUrl = 'https://api.telegram.org/bot' + token + '/sendMessage';
   
   // ดึงกิจกรรมของวันนี้
